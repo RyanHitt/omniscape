@@ -1,0 +1,63 @@
+
+#title{
+  width: 250px;
+  top: 5px;
+  transition: height 50px;
+  padding-left: 20px;
+}
+
+#title_home{
+  width: 400px;
+  top: 10px;
+  padding-bottom: 10px;
+  transition: height 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  width:50px;
+}
+
+#myTopnav {
+  background-color: black;
+  width: 100%;
+  height: 70px;
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  background: rgba(0,0,0,.6);  
+}
+
+#menu {
+  width:50px;
+  display: inline-block;
+  color: var(--main-font-color);
+  margin-left: 15%;
+  font-family: "Avenir";
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.hover_text{
+    position: relative;
+    top: -40px;
+    left: 0%;
+}
+
+#menu .hover_text{
+  visibility: hidden;
+  opacity: 0;
+  width: 200px;
+}
+
+#menu:hover .hover_text{
+  visibility: visible;
+  color: white;
+  opacity: 1;
+}
+
+#menu:hover .menu{
+  opacity: 0.3;
+}
