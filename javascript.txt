@@ -1,0 +1,51 @@
+//some javascript
+<script> code goes here lol </script>
+
+//Switch Statements
+Switch(expression) {
+  case value1:
+    //code
+    break; //stops fall-through
+  case value2:
+    //code
+    break;
+  default:
+    //code
+    break;
+}
+
+//While Loops
+while(condition) {
+  //code
+}
+
+//For Loops
+for(let x=0; x<10; x++) {
+  //code me
+}
+
+//De-Structuring
+let point = [1, 2, 3]
+let [x, y, z] = point
+>x = 1
+>y = 2
+>z = 3
+
+
+//Function
+function name (param, param2) {
+  //body
+  return void;
+}
+
+//keyword 'this'
+//Arrow function
+
+Block body
+(param, param2) => {
+  //body
+  return value;
+}
+
+Expression body
+(param, param2) => value;

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>  <!-- Meta info goes here -->
+      <title>Lightsout</title>
+      <!-- Link to CSS stylesheets-->
+      <link href="stylesheets/s_lightsout.css" type ="text/css" rel="stylesheet">
+      <script src="scripts/lightsout.js"></script>
+      <link rel="shortcut icon" href="pictures/energy.png" type="image/x-icon" />
+    </head>
+
+    <style>
+      a:link{
+        text-decoration: none;
+      }
+      a:visited{
+        text-decoration: none;
+      }
+      button{
+        align: center;
+      }
+    </style>
+
+<body>
+  <a href = "home.html"> <h1>LightsOut</h1> </a>
+  <div id="board" onclick="Move()">
+    <!-- Row 1-->
+    <div class = "box" id="1" onclick="Flip(1)" ></div>
+    <div class = "box" id="2" onclick="Flip(2)" ></div>
+    <div class = "box" id="3" onclick="Flip(3)" ></div>
+    <div class = "box" id="4" onclick="Flip(4)" ></div>
+    <div class = "box" id="5" onclick="Flip(5)" ></div>
+    <!--Row 2 -->
+    <div class = "box" id="6" onclick="Flip(6)" ></div>
+    <div class = "box" id="7" onclick="Flip(7)" ></div>
+    <div class = "box" id="8" onclick="Flip(8)" ></div>
+    <div class = "box" id="9" onclick="Flip(9)" ></div>
+    <div class = "box" id="10" onclick="Flip(10)" ></div>
+    <!-- Row 3 -->
+    <div class = "box" id="11" onclick="Flip(11)" ></div>
+    <div class = "box" id="12" onclick="Flip(12)" ></div>
+    <div class = "box" id="13" onclick="Flip(13)" ></div>
+    <div class = "box" id="14" onclick="Flip(14)" ></div>
+    <div class = "box" id="15" onclick="Flip(15)" ></div>
+    <!--Row 4 -->
+    <div class = "box" id="16" onclick="Flip(16)" ></div>
+    <div class = "box" id="17" onclick="Flip(17)" ></div>
+    <div class = "box" id="18" onclick="Flip(18)" ></div>
+    <div class = "box" id="19" onclick="Flip(19)" ></div>
+    <div class = "box" id="20" onclick="Flip(20)" ></div>
+    <!-- Row 5 -->
+    <div class = "box" id="21" onclick="Flip(21)" ></div>
+    <div class = "box" id="22" onclick="Flip(22)" ></div>
+    <div class = "box" id="23" onclick="Flip(23)" ></div>
+    <div class = "box" id="24" onclick="Flip(24)" ></div>
+    <div class = "box" id="25" onclick="Flip(25)" ></div>
+  </div>
+  <h2 id="moves"> Moves:0</h2>
+  <p id = "txt"> Time: </p>
+  <input type="button" value="Random" onclick="Rando();startTime()"/>
+  <p> All random boards are solvable in 10 moves or less. </p>
+</body>
