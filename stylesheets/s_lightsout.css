@@ -1,0 +1,78 @@
+
+:root {
+  --outerspace: #484749;
+  --autometalsaurus: #6F7D7F;
+  --navy: #555797;
+  --pale-cerulean: #9BC2EB;
+  --white: #FFFFFF;
+  --someblue: #61C3FF;
+
+  --empty-bg-color: var(--navy);
+  --main-bg-color: var(--platinum);
+  --main-font-color: var(--white);
+  --accent-font-color: var(--someblue)
+
+}
+
+/*Universal */
+* {
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  background-color: grey;
+
+}
+
+
+h1 {
+  underline: none;
+  margin-left: 30px;
+  margin-bottom: 15px;
+  font-family: Impact, Charcoal, sans-serif;
+  color: white;
+  text-align: center;
+
+}
+
+h2 {
+  color: black;
+  height: 1em;
+}
+
+section{
+  color: var(--main-font-color);
+  padding: 5px;
+  padding-left: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: var(--empty-bg-color) ;
+}
+
+#board {
+  font-size: 2em;
+
+    width: 10em;
+    height: 10em + 10px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 2em);
+
+    background-color: white;
+
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.box {
+    width: 2em;
+    height: 2em;
+
+    grid-row-start: auto;
+    grid-column-start: auto;
+    background-color: black;
+
+    border: 1px solid white;
+}
+
+.lightson {
+  background-color: black;
+}

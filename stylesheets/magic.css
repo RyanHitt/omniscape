@@ -1,0 +1,16 @@
+#hover {
+  margin-right: 100px;
+}
+
+#hover .hover_text {
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  width: 200px;
+}
+
+#hover:hover .hover_text {
+  visibility: visible;
+  color: white;
+  opacity: 1;
+}
